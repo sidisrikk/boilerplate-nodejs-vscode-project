@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0",
+    "await-to-js": "^2.0.1",
+    "axios": "^0.18.0",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "eslint": "^5.6.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "json-server": "^0.14.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.4"
+  },
+  "name": "playground-nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "sv": "json-server kafe-db.json",
+    "start": "babel-node src/index.js",
+    "hotreload": "nodemon --exec babel-node src/index.js",
+    "build": "babel src --out-dir dist",
+    "serve": "node dist/index.js"
+  }
+}
