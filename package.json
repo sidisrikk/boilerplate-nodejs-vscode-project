@@ -25,7 +25,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "sv": "json-server kafe-db.json",
+    "sv": "json-server fake-db.json",
     "start": "babel-node src/index.js",
     "hotreload": "nodemon --exec babel-node src/index.js",
     "build": "babel src --out-dir dist",
