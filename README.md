@@ -6,3 +6,4 @@
 - <b>some npm commands</b> : start build serve hotreload
 - <b>mock api server</b> : json-server
 - <b>helper</b>: lodash,  asynce-await try/catch wrapper
+- <b>test</b>: jest
