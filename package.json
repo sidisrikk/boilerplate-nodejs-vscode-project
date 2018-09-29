@@ -2,7 +2,8 @@
   "dependencies": {
     "@babel/polyfill": "^7.0.0",
     "await-to-js": "^2.0.1",
-    "axios": "^0.18.0"
+    "axios": "^0.18.0",
+    "lodash": "^4.17.11"
   },
   "devDependencies": {
     "@babel/cli": "^7.1.2",
@@ -21,9 +22,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "sv": "json-server dummy.json",
+    "sv": "json-server kafe-db.json",
     "start": "babel-node src/index.js",
-    "hotreload" : "nodemon --exec babel-node src/index.js",
+    "hotreload": "nodemon --exec babel-node src/index.js",
     "build": "babel src --out-dir dist",
     "serve": "node dist/index.js"
   }
