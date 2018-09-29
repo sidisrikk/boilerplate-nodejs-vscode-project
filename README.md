@@ -5,4 +5,4 @@
 - <b>enable es6</b> : babel7 + polyfill
 - <b>some npm commands</b> : start build serve hotreload
 - <b>mock api server</b> : json-server
-- <b>ez</b>: lodash
+- <b>helper</b>: lodash,  asynce-await try/catch wrapper
