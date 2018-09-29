@@ -1,7 +1,10 @@
 import sum from './sum';
 
-describe('hi', () => {
+describe('simple math', () => {
+  test('adds 1 + 2 to not equal 2', () => {
+    expect(sum(1, 2)).not.toBe(2);
+  });
   test('adds 1 + 2 to equal 3', () => {
-    expect(sum(1, 2)).toBe(3);
+    expect(1 + 2).toBe(3);
   });
 });
